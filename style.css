@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(234, 245, 255);
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(234, 245, 255);
+  height: 80vh;
+  width: 55vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2),
+    -5px -5px 10px rgb(255, 255, 255, 0.5), -5px -5px 10px rgb(255, 255, 255);
+}
+header {
+  display: flex;
+}
+header img {
+  position: relative;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+}
+header svg {
+  position: relative;
+  left: 320px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+}
+.pic-and-more {
+  text-align: center;
+}
+.pic-and-more img {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid rgb(234, 245, 255);
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0, 0.2));
+  -webkit-filter: drop-shadow(0px 0px 10px rgb(0, 0, 0, 0.2));
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons .i {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 4vh;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2),
+    -5px -5px 10px rgb(255, 255, 255, 0.5), -5px -5px 10px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.i img {
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 40px;
+}
+.btn button {
+  margin: 20px;
+  width: 170px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2), -5px -5px 10px rgb(255, 255, 255),
+    -5px -5px 10px rgb(255, 255, 255);
+  border-radius: 2px;
+}
+/* .like-share{
+  display: flex;
+  position: relative;
+}
+.like{
+  background-color: red;
+  width: 50px;
+  height: 20px;
+} */
+.reply {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: transparent;
+  position: relative;
+}
+.reply .like {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 110px;
+  height: 50px;
+  position: relative;
+  top: 4vh;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.03),
+    -5px -5px 10px rgb(255, 255, 255, 0.7);
+  border-radius: 0.5px;
+}
+.like img {
+  width: 30px;
+  height: 30px;
+
+  text-align: center;
+}
+footer {
+  position: relative;
+  margin-top: 70px;
+  font-size: 13px;
+  text-align: center;
+}
